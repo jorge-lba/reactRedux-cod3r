@@ -17,7 +17,7 @@ const elemento = document.getElementById( 'root' )
 
 ReactDom.render( 
     <div>
-        <Contador numero = {0} />
+        <Contador numeroInicial = {100} />
         {/* <ComponenteClasse valor = "Test Value!" /> */}
         {/* <Pai /> */}
         {/* <ComponenteComFuncao /> */}
