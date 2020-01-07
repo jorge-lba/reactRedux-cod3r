@@ -9,14 +9,16 @@
 // import Familia from './componentes/familia'
 // import Membro from './componentes/membro'
 // import ComponenteComFuncao from './componentes/componenteComFuncao'
-import Pai from './componentes/pai'
+// import Pai from './componentes/pai'
+import ComponenteClasse from './componentes/componenteClasse'
 
 
 const elemento = document.getElementById( 'root' )
 
 ReactDom.render( 
     <div>
-        <Pai />
+        <ComponenteClasse valor = "Test Value!" />
+        {/* <Pai /> */}
         {/* <ComponenteComFuncao /> */}
         {/* <Familia sobrenome = 'Pereira' > */}
             {/* <Membro nome = 'Andre' /> */}
