@@ -3,6 +3,7 @@
  import PrimeiroComponente from './componentes/PrimeiroComponente'
  import ArrowComponente from './componentes/ArrowComponente'
  import Props from './componentes/props'
+ import { CompA, CompB } from './componentes/doisComponentes'
 
 const elemento = document.getElementById( 'root' )
 
@@ -11,5 +12,7 @@ ReactDom.render(
         <PrimeiroComponente />
         <ArrowComponente />
         <Props valor="Bom Dia" aBcD={ Math.pow( 2, 8 ) }/>
+        <CompA valor = "Olá eu sou A!" />
+        <CompB valor = "Olá eu sou B!" />
     </div>    
 , elemento )
