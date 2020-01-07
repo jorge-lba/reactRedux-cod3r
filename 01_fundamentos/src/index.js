@@ -5,7 +5,7 @@
 //  import Props from './componentes/props'
 //  import { CompA, CompB } from './componentes/doisComponentes'
 //  import MultElementos from './componentes/multElementos'
-import FamiliaSilva from './componentes/familiaSilva'
+// import FamiliaSilva from './componentes/familiaSilva'
 import Familia from './componentes/familia'
 import Membro from './componentes/membro'
 
@@ -16,9 +16,9 @@ ReactDom.render(
     <div>
         <Familia sobrenome = 'Pereira' >
             <Membro nome = 'Andre' />
-            <Membro nome = 'Mariana' />
+            {/* <Membro nome = 'Mariana' /> */}
         </Familia>
-        <FamiliaSilva sobrenome = "Silva" />
+        {/* <FamiliaSilva/> */}
         {/* <PrimeiroComponente /> */}
         {/* <ArrowComponente /> */}
         {/* <Props valor="Bom Dia" aBcD={ Math.pow( 2, 8 ) }/> */}
