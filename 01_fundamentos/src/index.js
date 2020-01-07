@@ -10,14 +10,15 @@
 // import Membro from './componentes/membro'
 // import ComponenteComFuncao from './componentes/componenteComFuncao'
 // import Pai from './componentes/pai'
-import ComponenteClasse from './componentes/componenteClasse'
-
+// import ComponenteClasse from './componentes/componenteClasse'
+import Contador from './componentes/contador/contador'
 
 const elemento = document.getElementById( 'root' )
 
 ReactDom.render( 
     <div>
-        <ComponenteClasse valor = "Test Value!" />
+        <Contador numero = {0} />
+        {/* <ComponenteClasse valor = "Test Value!" /> */}
         {/* <Pai /> */}
         {/* <ComponenteComFuncao /> */}
         {/* <Familia sobrenome = 'Pereira' > */}
