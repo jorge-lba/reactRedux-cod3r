@@ -6,19 +6,21 @@
 //  import { CompA, CompB } from './componentes/doisComponentes'
 //  import MultElementos from './componentes/multElementos'
 // import FamiliaSilva from './componentes/familiaSilva'
-import Familia from './componentes/familia'
-import Membro from './componentes/membro'
+// import Familia from './componentes/familia'
+// import Membro from './componentes/membro'
+import ComponenteComFuncao from './componentes/componenteComFuncao'
 
 
 const elemento = document.getElementById( 'root' )
 
 ReactDom.render( 
     <div>
-        <Familia sobrenome = 'Pereira' >
-            <Membro nome = 'Andre' />
-            <Membro nome = 'Ana' />
+        <ComponenteComFuncao />
+        {/* <Familia sobrenome = 'Pereira' > */}
+            {/* <Membro nome = 'Andre' /> */}
+            {/* <Membro nome = 'Ana' /> */}
             {/* <Membro nome = 'Mariana' /> */}
-        </Familia>
+        {/* </Familia> */}
         {/* <FamiliaSilva/> */}
         {/* <PrimeiroComponente /> */}
         {/* <ArrowComponente /> */}
