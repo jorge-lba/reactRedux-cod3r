@@ -11,13 +11,15 @@
 // import ComponenteComFuncao from './componentes/componenteComFuncao'
 // import Pai from './componentes/pai'
 // import ComponenteClasse from './componentes/componenteClasse'
-import Contador from './componentes/contador/contador'
+// import Contador from './componentes/contador/contador'
+import ContadorHooks from './componentes/hooks'
 
 const elemento = document.getElementById( 'root' )
 
 ReactDom.render( 
     <div>
-        <Contador numeroInicial = {100} />
+        <ContadorHooks />
+        {/* <Contador numeroInicial = {100} /> */}
         {/* <ComponenteClasse valor = "Test Value!" /> */}
         {/* <Pai /> */}
         {/* <ComponenteComFuncao /> */}
