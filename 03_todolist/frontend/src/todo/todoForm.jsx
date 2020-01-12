@@ -16,6 +16,8 @@ export default props => (
                 value={ props.description } />
             <IconButton style= 'info' icon= 'search'
                 onClick={ props.handleSearch } />
+            <IconButton style= 'default' icon= 'close'
+                onClick={ props.handleClear } />
         </Grid>
     </div>       
 
